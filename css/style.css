@@ -1,0 +1,76 @@
+.site {
+    width: 1215px;
+    height: 1028px;
+    background-image: url(C:/homework5/img/bg.jpg);
+    margin: auto;
+}
+header {
+    background-image: url(C:/homework5/img/bgh.jpg);
+    width: 1215px;
+    height: 35px;
+}
+.clack {
+    width: 191px;
+    height: 35px;
+    margin-right: 20px;
+    float: right;
+    border-left: 1px solid #4299d2;
+    border-right: 1px solid #4299d2;
+}
+@font-face {
+    font-family: 'helveticaneuecyr';
+    src: url('helveticaneuecyr-lightitalic-webfont.woff2') format('woff2'),
+         url('helveticaneuecyr-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.tm {
+    text-decoration: none;
+    color: #489bd5;
+    font-size: 14px;
+    word-spacing: 1em;
+}
+.menu1, .menu2, .menu3, .menu4, .menu5 {
+    line-height: 33px;
+    display: inline-block;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.menu {
+    margin-left: 430px;
+}
+.flagm {
+    color: white;
+    margin-left: 879px;
+    position: absolute;
+    top: 9px;
+}
+.logo {
+    margin-left: 836px;
+    position: absolute;
+    top: 6px;
+}
+.lineh {
+    margin-left: 819px;
+    position: absolute;
+    top: 2px;
+}
+.menu1:hover, .menu2:hover, .menu3:hover, .menu4:hover, .menu5:hover {
+    background: #4eabda;
+}
+.tm:hover {
+    color: white;
+}
+.url {
+    color: #fff;
+}
+.menuend {
+    display: inline-block;
+    color: #fff;
+}
+.menue {
+    position: absolute;
+    top: 9px;
+    right: 377px
+}
+
