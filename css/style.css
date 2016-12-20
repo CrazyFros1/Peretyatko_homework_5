@@ -29,21 +29,24 @@ header {
     color: #489bd5;
     font-size: 14px;
     word-spacing: 1em;
+    font-family: helveticaneuecyr;
 }
 .menu1, .menu2, .menu3, .menu4, .menu5 {
-    line-height: 33px;
+   line-height: 35px;
     display: inline-block;
     padding-right: 12px;
     padding-left: 12px;
+    margin-top: -1px;
 }
 .menu {
-    margin-left: 430px;
+    margin-left: 422px;
 }
 .flagm {
     color: white;
     margin-left: 879px;
     position: absolute;
     top: 9px;
+    font-family: helveticaneuecyr;
 }
 .logo {
     margin-left: 836px;
@@ -63,14 +66,90 @@ header {
 }
 .url {
     color: #fff;
+    font-family: helveticaneuecyr;
 }
 .menuend {
     display: inline-block;
     color: #fff;
+    font-family: helveticaneuecyr;
 }
 .menue {
     position: absolute;
     top: 9px;
-    right: 377px
+    right: 370px;
 }
-
+.boxup {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 560px;
+    height: 63px;
+    margin-left: 353px;
+    margin-top: 213px;
+}
+.textup {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 21px;
+    font-family: helveticaneuecyr;
+}
+.boxregister {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 560px;
+    margin-left: 353px;
+    margin-top: 2px;
+    height: 549px;
+}
+.facebook {
+    margin-left: 187px;
+    margin-top: 43px
+}
+.facebookimg {
+    position: absolute;
+    left: 844px;
+    top: 349px;
+}
+.text, .text1 {
+    margin-top: 36px;
+    margin-left: 148px;
+    width: 276px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #4a4a49;
+    background-image: linear-gradient(to top, #111 0%, #0e0d0d 100%);
+    font-family: helveticaneuecyr;
+    color: #ccc;
+}
+.line {
+    margin-left: 148px;
+    margin-top: 39px;
+}
+.textline {
+    margin-left: 277px;
+    color: #999;
+    font-family: helveticaneuecyr;
+    font-size: 14px;
+    margin-top: -11px;
+}
+.text {
+   margin-top: 16px;
+}
+.text:hover, .text1:hover {
+    background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 5px 5px rgba(29, 26, 22, 0.2), 0 1px 0 #4b4b4b;
+}
+.checkboxt {
+    font-family: helveticaneuecyr;
+    color: #ccc;
+    font-size: 14px;
+}
+.checkbox {
+     margin-left: 154px;
+     margin-top: 21px;
+}
+.ftext {
+    color: #ccc;
+    font-size: 11px;
+    font-family: helveticaneuecyr;
+    text-align: center;
+    margin-top: 66px;
+}
